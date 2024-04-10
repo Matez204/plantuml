@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+"Admin" as ad
+"User" as us
+usecase "Login"
+package System{
+    usecase "Admin the aplication"
+    usecase "Admin roles"
+    usecase "Use the aplication"
+}
+us --|> "Login"
+us --> "Use the aplication"
+"Login"..|>ad
+"Login"-->"Use the aplication"
+ad ..>"Admin roles"
+ad ..>"Admin the aplication"
+ad ..>"Use the aplication"

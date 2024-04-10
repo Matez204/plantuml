@@ -1,0 +1,5 @@
+@startuml
+usecase "checkout"
+usecase "payment"
+usecase "help"
+custome -- "checkout"
