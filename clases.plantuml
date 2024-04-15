@@ -1,0 +1,20 @@
+@startuml
+Clase01 <|-- Clase02
+Clase03 *-- Clase04
+Clase05 o-- Clase06
+Clase07 -- Clase08
+Clase09 .. Clase10
+interface Clase11
+Clase11 <|.. Clase12
+abstract Class Clase12
+Clase12 <|-- Clase13 
+
+ Clase01 : + operacion01()
+ Clase01 : ~ operacio02()
+ Clase01 : -attribute01
+ Clase01 : {static} operacion()
+
+ Clase03 : # Clase04[] parte04
+
+ Clase12 : {abstract} metodo01()
+ Clase12 : metodo02()

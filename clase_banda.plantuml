@@ -1,0 +1,7 @@
+@startuml
+
+interface Instrumento : afinar()
+ Instrumento : afinar()
+ Instrumento : tocar()
+Class Musico 
+Class Banda 

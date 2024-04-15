@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+package "Banda aleatoria "{
+    usecase "Armar banda"
+    usecase "Tocar banda"
+    usecase "Afinar banda"
+    usecase "Tocar instrumento"
+    usecase "Afinar instrumento"
+}
+Usuario -->"Tocar banda"
+Usuario -->"Afinar banda"
+"Tocar banda" -->"Tocar instrumento":incluye
+"Afinar banda" --> "Afinar instrumento":incluye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
